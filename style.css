@@ -1,0 +1,14 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: black;
+}
+/* navBar styling */
+nav {
+  background-color: black;
+}
+.nav li a {
+  color: white;
+}
