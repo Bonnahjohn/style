@@ -6,6 +6,9 @@ body {
   background-color: black;
   text-decoration: none;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* navBar styling */
 .navs {
   background: rgba(0, 0, 0, 0.3);
@@ -51,4 +54,9 @@ span {
 /* cards styling */
 .card-title {
   color: white;
+}
+
+/* footer styling */
+ol li i {
+  cursor: pointer;
 }
