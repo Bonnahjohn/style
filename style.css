@@ -31,3 +31,13 @@ p {
     margin-top: 25%;
   }
 }
+
+@media screen and (width: 1024px) {
+  .hide {
+    display: block !important;
+  }
+
+  .display {
+    display: none !important;
+  }
+}
