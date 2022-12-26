@@ -2,12 +2,15 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: sans-serif;
   background-color: black;
+  text-decoration: none;
 }
 /* navBar styling */
-nav {
-  background-color: black;
+.navs {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+
   align-items: center;
   height: 64px;
 }
@@ -17,9 +20,12 @@ nav {
 /* .bg-color {
   background-color: rgb(105, 97, 97);
 } */
-
+/* text-styling */
 p {
   color: white;
+}
+span {
+  color: red;
 }
 /* hero section */
 .hero-text {
@@ -34,10 +40,15 @@ p {
 
 @media screen and (width: 1024px) {
   .hide {
-    display: block !important;
+    display: none !important;
   }
 
   .display {
-    display: none !important;
+    display: block !important;
   }
+}
+
+/* cards styling */
+.card-title {
+  color: white;
 }

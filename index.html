@@ -11,7 +11,7 @@
   </head>
   <body>
     <!--mmmmmmmmmmmmmmmmmmmmmmmmmmmm large screen navBar mmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
-    <nav class=" position-fixed w-100 justify-content-between d-lg-flex d-none ">
+    <nav class=" position-fixed w-100 justify-content-between d-lg-flex d-none navs">
       <div class="container d-flex justify-content-between">
         <span class="fs-2 text-danger"><i class="fa fa-headphones"></i></span>
         <ul class=" nav  list-unstyled ">
@@ -142,15 +142,58 @@
 <div class="flex-grow-1 p-lg-1 hero-text" >
   <strong class="text-danger">Hello Im  Agetha</strong>
   <h1 class="text-light fw-bold" style="letter-spacing: 2px;">Visual Designer</h1>
-<p class="d-lg-block  d-none display">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis <br> facere, eos nobis mollitia quisquam corporis, quod est autem qui aliquam. <br> Quia, iste dicta!</p>
+<p class="d-lg-block  d-none hide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis <br> facere, eos nobis mollitia quisquam corporis, quod est autem qui aliquam. <br> Quia, iste dicta!</p>
 <!--mmmmmmmmmmmmmmmmmmmmm for small screens mmmmmmmmmmmmmmmmmmmmm-->
- <p class="d-lg-none d-sm-block hide d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis
+ <p class="d-lg-none d-sm-block display d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis
    facere, eos nobis mollitia quisquam corporis, quod est autem qui aliquam. Quia, iste dicta!</p>
 <button type="button" class="btn btn-danger rounded-0">ABOUT ME</button>
 </div>
 </div>
   </section>
 
+  <section class="container mt-lg-5 mt-2">
+<div class="row row-cols-1 row-cols-lg-3 g-4 row-cols-md-2">
+  <div class="col">
+    <div class="card rounded-0 bg-dark align-items-start px-4 py-5">
+     <span class="fs-1 ps-3"><i class="fa fa-cocktail"></i></span>
+      <div class="card-body">
+        <h3 class="card-title">UI design</h3>
+        <p class="card-text d-lg-block d-none hide">Lorem ipsum is simply  text <br> of the printing type</p>
+        <!-- for small screen only -->
+        <p class="card-text d-lg-none d-block display">Lorem ipsum is simply  text  of the printing type</p>
+        <a href="#m" class="text-danger text-decoration-none">KNOW MORE  <I class="fa fa-arrow-right"></I></a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-0 bg-danger px-2 text-start py-5 " >
+    <span class="fs-1 text-light ps-3"><i class="fa fa-bookmark"></i></span>
+      <div class="card-body ">
+        <h3 class="card-title">Product Design</h3>
+      <p class="card-text d-lg-block d-none hide">Lorem ipsum is simply  text of the  <br> printing type</p>
+        <!-- for small screen only -->
+        <p class="card-text d-lg-none d-block display">Lorem ipsum is simply  text  of the printing type</p>
+          <a href="#m" class="text-light text-decoration-none">KNOW MORE  <I class="fa fa-arrow-right"></I></a>
+      </div>
+    </div>
+  </div>
+  <div class="col ">
+    <div class="card rounded-0 bg-dark py-5 px-4"  >
+     <span class="fs-1 ps-3"><i class="fa fa-ruler"></i></span>
+      <div class="card-body">
+        <h3 class="card-title">Branding </h3>
+         <p class="card-text d-lg-block d-none hide">Lorem ipsum is simply  text<br> of the   printing type</p>
+             <!-- for small screen only -->
+              <p class="card-text d-lg-none d-block display">Lorem ipsum is simply  text  of the printing type</p>
+
+          <a href="#m" class="text-danger text-decoration-none">KNOW MORE   <I class="fa fa-arrow-right"></I></a>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+
+  </section>
 </main>
     <script src="bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
     <script src="app.js"></script>
