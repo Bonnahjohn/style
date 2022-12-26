@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: black;
-  text-decoration: none;
+  overflow-x: none;
 }
 html {
   scroll-behavior: smooth;
@@ -44,6 +44,9 @@ h6 {
   margin-top: 15%;
 }
 
+.top {
+  padding-top: 3% !important;
+}
 @media screen and (max-width: 600px) {
   .hero-text {
     margin-top: 25%;
