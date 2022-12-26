@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class=" position-fixed w-100 justify-content-between d-lg-flex d-none">
-      <div class="container d-flex justify-content-between">
+    <!--mmmmmmmmmmmmmmmmmmmmmmmmmmmm large screen navBar mmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+    <nav class=" position-fixed w-100 justify-content-around d-lg-flex d-none">
+      <div class="container-fluid d-flex justify-content-around">
         <span class="fs-2 text-danger"><i class="fa fa-headphones"></i></span>
         <ul class=" nav  list-unstyled ">
           <li class="nav-item dropdown">
@@ -64,6 +65,73 @@
         </ul>
       </div>
     </nav>
+   <!--mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm small screen NavBar mmmmmmmmmmmmmmmmmmm-->
+   <nav class="navbar bg-body-tertiary fixed-top d-lg-none d-block bg-color">
+  <div class="container-fluid">
+    <span class="fs-2 text-danger navbar-brand"><i class="fa fa-headphones"></i></span>
+    <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon text-bg-light"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <span class="offcanvas-title" id="offcanvasNavbarLabel"><i class="fa fa-headphones"></i></span>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+           <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              HOME
+            </a>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+   <li class="nav-item">
+          <a class="nav-link" href="#">PROJECT</a>
+        </li>
+         </li>
+           <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+         </li>
+           <li class="nav-item">
+          <a class="nav-link" href="#">PROJECT</a>
+        </li>
+         </li>
+           <li class="nav-item">
+          <a class="nav-link" href="#">CONTACT</a>
+        </li>
+          <li class="nav-item dropdown ">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+         OTHER PAGE
+            </a>
+            <ul class="dropdown-menu  ">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      
+      </div>
+    </div>
+  </div>
+</nav>
     <script src="bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
     <script src="app.js"></script>
   </body>
