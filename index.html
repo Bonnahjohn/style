@@ -11,8 +11,8 @@
   </head>
   <body>
     <!--mmmmmmmmmmmmmmmmmmmmmmmmmmmm large screen navBar mmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
-    <nav class=" position-fixed w-100 justify-content-around d-lg-flex d-none">
-      <div class="container-fluid d-flex justify-content-around">
+    <nav class=" position-fixed w-100 justify-content-between d-lg-flex d-none ">
+      <div class="container d-flex justify-content-between">
         <span class="fs-2 text-danger"><i class="fa fa-headphones"></i></span>
         <ul class=" nav  list-unstyled ">
           <li class="nav-item dropdown">
@@ -66,7 +66,7 @@
       </div>
     </nav>
    <!--mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm small screen NavBar mmmmmmmmmmmmmmmmmmm-->
-   <nav class="navbar bg-body-tertiary fixed-top d-lg-none d-block bg-color">
+   <nav class="navbar bg-body-tertiary fixed-top d-lg-none d-block bg-color bg-dark">
   <div class="container-fluid">
     <span class="fs-2 text-danger navbar-brand"><i class="fa fa-headphones"></i></span>
     <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -132,6 +132,22 @@
     </div>
   </div>
 </nav>
+<main>
+  <!--mmmmmmmmmmmmmmmmmmmmmmmm hero section mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
+  <section class="container  ">
+<div class="d-flex justify-content-between flex-column-reverse flex-lg-row">
+<div class="p-1 mt-5">
+  <img src="assets/hero.jpg" alt="hero-img" class="w-100 h-100 bg-danger" >
+</div>
+<div class="flex-grow-1 p-lg-1 hero-text" >
+  <strong class="text-danger">Hello Im  Agetha</strong>
+  <h1 class="text-light fw-bold" style="letter-spacing: 2px;">Visual Designer</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis <br> facere, eos nobis mollitia quisquam corporis, quod est autem qui aliquam. <br> Quia, iste dicta!</p>
+<button type="button" class="btn btn-danger rounded-0">ABOUT ME</button>
+</div>
+</div>
+  </section>
+</main>
     <script src="bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
     <script src="app.js"></script>
   </body>

@@ -8,10 +8,26 @@ body {
 /* navBar styling */
 nav {
   background-color: black;
+  align-items: center;
+  height: 64px;
 }
 .nav li a {
   color: white;
 }
-.bg-color {
+/* .bg-color {
   background-color: rgb(105, 97, 97);
+} */
+
+p {
+  color: white;
+}
+/* hero section */
+.hero-text {
+  margin-top: 15%;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-text {
+    margin-top: 25%;
+  }
 }
